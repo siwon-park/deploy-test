@@ -34,3 +34,8 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+// bootJar Task 수행 시 plain-jar 파일을 만들지 않음
+//tasks.named('jar') {
+//	enabled = false
+//}
